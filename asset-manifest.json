@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.25abfef5.css",
+    "main.js": "/my-portfolio/static/js/main.ddbfc690.js",
+    "static/js/415.ce69831e.chunk.js": "/my-portfolio/static/js/415.ce69831e.chunk.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Resume.pdf": "/my-portfolio/static/media/Resume.611a1bb8adfeaf2230c5.pdf",
+    "static/media/emotion.png": "/my-portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/cellixbio.png": "/my-portfolio/static/media/cellixbio.0e4967107604a8c4c5ec.png",
+    "static/media/home-main.svg": "/my-portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/my-portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/jlmush.png": "/my-portfolio/static/media/jlmush.9c1938d477f85e8f1339.png",
+    "static/media/camcrew.png": "/my-portfolio/static/media/camcrew.055ef242b5064cc925ba.png",
+    "static/media/logo.png": "/my-portfolio/static/media/logo.0efc473cf8c1a1c8276c.png",
+    "static/media/oconnect.png": "/my-portfolio/static/media/oconnect.97740b7547f1d78356ea.png",
+    "static/media/CamArtisians.png": "/my-portfolio/static/media/CamArtisians.a02b14ed14cdb84c7dca.png",
+    "static/media/home-bg.jpg": "/my-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/my-portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/my-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.25abfef5.css.map": "/my-portfolio/static/css/main.25abfef5.css.map",
+    "main.ddbfc690.js.map": "/my-portfolio/static/js/main.ddbfc690.js.map",
+    "415.ce69831e.chunk.js.map": "/my-portfolio/static/js/415.ce69831e.chunk.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25abfef5.css",
+    "static/js/main.ddbfc690.js"
+  ]
+}
