@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.abb7fbfb.css",
-    "main.js": "/static/js/main.b3aef713.js",
+    "main.js": "/static/js/main.d12a4dd9.js",
     "static/js/415.ce69831e.chunk.js": "/static/js/415.ce69831e.chunk.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/Resume.pdf": "/static/media/Resume.611a1bb8adfeaf2230c5.pdf",
-    "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/Resume.pdf": "/static/media/Resume.4acde45909aa2ad01d62.pdf",
     "static/media/cellixbio.png": "/static/media/cellixbio.0e4967107604a8c4c5ec.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
@@ -14,17 +13,18 @@
     "static/media/logo.png": "/static/media/logo.0efc473cf8c1a1c8276c.png",
     "static/media/oconnect.png": "/static/media/oconnect.97740b7547f1d78356ea.png",
     "static/media/CamArtisians.png": "/static/media/CamArtisians.a02b14ed14cdb84c7dca.png",
+    "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.abb7fbfb.css.map": "/static/css/main.abb7fbfb.css.map",
-    "main.b3aef713.js.map": "/static/js/main.b3aef713.js.map",
+    "main.d12a4dd9.js.map": "/static/js/main.d12a4dd9.js.map",
     "415.ce69831e.chunk.js.map": "/static/js/415.ce69831e.chunk.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abb7fbfb.css",
-    "static/js/main.b3aef713.js"
+    "static/js/main.d12a4dd9.js"
   ]
 }
