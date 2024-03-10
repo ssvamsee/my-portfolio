@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import jlmush from "../../Assets/Projects/jlmush.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import chatify from "../../Assets/Projects/chatify.png";
 import camcrew from "../../Assets/Projects/camcrew.png";
 import cellixbio from "../../Assets/Projects/cellixbio.png";
 import oconnect from "../../Assets/Projects/oconnect.png";
@@ -24,9 +24,17 @@ function Projects() {
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={oconnect}
-              title="oconnect"
+              title="OConnect"
               description="Worldwide connectivity is todays necessity. OCONNECT is an online video conferencing tool with HD audio quality that provides unmatched clarity and quality to every virtual connection."
               demoLink="https://oconnect.ai/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              title="OPAL"
+              description="The Chat Application which connects users among the world and unites through audio and video call along with text messages"
+              demoLink="https://o-pal-dev.onpassive.com/"
             />
           </Col>
           <Col md={4} className="project-card">

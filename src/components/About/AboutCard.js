@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Siddam Vamsee </span>
             from <span className="purple"> Hyderabad, India.</span>
             <br />
-            I am currently employed as a software developer at Onpassive.
+            I am currently employed as a Senior software Engineer at Onpassive.
             <br />
             I completed my Bachelor of Technology (B.Tech) in Computer Science and Engineering from JNTUK.
             <br />
