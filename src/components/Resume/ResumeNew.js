@@ -18,7 +18,7 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href='Assets/Resume.pdf'
@@ -28,7 +28,7 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
-        </Row>
+        </Row> */}
 
         <Row className="resume">
           <Document file='Assets/Resume.pdf' className="d-flex justify-content-center">
