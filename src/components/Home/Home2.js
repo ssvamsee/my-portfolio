@@ -11,7 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -48,13 +48,13 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar" data-aos="zoom-in-up">
             <Tilt>
               <img src='Assets/avatar.svg' className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -103,7 +103,7 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );

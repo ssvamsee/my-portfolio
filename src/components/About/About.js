@@ -5,10 +5,11 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
+import Tilt from "react-parallax-tilt";
 
 function About() {
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="about-section" id="about">
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -29,8 +30,11 @@ function About() {
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
+            data-aos="zoom-in-left"
           >
-            <img src='Assets/about.png' alt="about" className="img-fluid" />
+            <Tilt>
+            <img src='Assets/about.svg' alt="about" className="img-fluid" />
+            </Tilt>
           </Col>
         </Row>
         <h1 className="project-heading">

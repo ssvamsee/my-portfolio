@@ -11,16 +11,17 @@ function Particle() {
             value: 160,
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 800,
             },
           },
           line_linked: {
             enable: false,
-            opacity: 0.05,
+            opacity: 0.5,
           },
           move: {
+            enable: true,
             direction: "right",
-            speed: 0.5,
+            speed: 0.7,
           },
           size: {
             value: 1,
@@ -28,7 +29,7 @@ function Particle() {
           opacity: {
             anim: {
               enable: true,
-              speed: 0.5,
+              speed: 1,
               opacity_min: 0.05,
             },
           },
@@ -42,7 +43,7 @@ function Particle() {
           },
           modes: {
             push: {
-              particles_nb: 1,
+              particles_nb: 5,
             },
           },
         },

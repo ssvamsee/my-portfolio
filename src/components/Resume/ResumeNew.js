@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -15,8 +15,7 @@ function ResumeNew() {
   }, []);
 
   return (
-    <div>
-      <Container fluid className="resume-section">
+      <Container fluid className="resume-section" id="resume">
         <Particle />
         {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
@@ -42,7 +41,7 @@ function ResumeNew() {
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent: "center", position: "relative" , marginBottom:"20px"}}>
           <Button
             variant="primary"
             href='Assets/Resume.pdf'
@@ -53,8 +52,13 @@ function ResumeNew() {
             &nbsp;Download CV
           </Button>
         </Row>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+
+
       </Container>
-    </div>
   );
 }
 

@@ -1,7 +1,7 @@
 html {
   --section-background-color: linear-gradient(to bottom left,
-      rgba(17, 16, 16, 0.582),
-      rgba(12, 8, 24, 0.904));
+      rgba(17, 16, 16, 0.678),
+      rgba(12, 10, 22, 0.863));
 
   --image-gradient: linear-gradient(to bottom left,
       rgba(17, 16, 16, 0.678),
@@ -9,6 +9,7 @@ html {
 
   --imp-text-color: #c770f0;
 }
+
 
 .purple {
   color: var(--imp-text-color) !important;
@@ -254,7 +255,6 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(../public/Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -446,7 +446,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
 }
 
 .project-card {
@@ -546,7 +546,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
   color: white !important;
 }
 
@@ -604,7 +604,7 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
   color: white !important;
 }
 
@@ -742,4 +742,59 @@ button:focus {
 
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 10%;
+  height: 20%;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  /* margin-top: 2%; */
+}
+
+.mouse {
+  width: 50px;
+  height: 90px;
+  border: 3px solid #8a49a8;
+  border-radius: 60px;
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    background-color: #8a49a8;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 2s infinite;
+    -webkit-animation: wheel 2s infinite;
+  }
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+.highlghter {
+  color: var(--imp-text-color) !important;
 }
