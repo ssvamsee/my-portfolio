@@ -4,8 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import Particle from "../Particle";
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const initialState = {
   name: "",
@@ -14,24 +14,29 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [formData, setFormData] = useState(initialState);
-  // const baseUrl = `https://ssvamsee.github.io/cloud2labs`
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setFormData(initialState);
-//   const notify = () => toast.success("Message Sent Successfully!");
+  const notify = () => {
+    toast.success("Thank you for Reaching Out!", {
+      onClose: () => {
+        toast.info("We will get back to you shortly.");
+      }
+    });
+  };
 
 
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_mm4kpug", "template_m8d7e3u", e.target, "jf3VjaUQUiTAMzRwx")
+      .sendForm("service_scplfxk", "template_gmc1iib", e.target, "-Cbs07TglJlJfeahR")
       .then(
         (result) => {
           console.log(result.text);
-        //   notify();
+          notify();
           clearState();
         },
         (error) => {
@@ -45,7 +50,7 @@ export const Contact = (props) => {
       <Particle />
       <Container>
         <Row className="align-items-center">
-          {/* <ToastContainer /> */}
+          <ToastContainer />
 
           <Col size={12} md={6}>
             <TrackVisibility>
@@ -57,7 +62,7 @@ export const Contact = (props) => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div data-aos="fade-down-left">
+                <div data-aos="fade-down-right">
                   <h2>Get In <span className="highlghter">Touch</span></h2>
                   <form name="sentMessage" validate onSubmit={handleSubmit}>
                     <div className="row">

@@ -30,7 +30,7 @@ function About() {
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
-            data-aos="zoom-in-left"
+            data-aos="zoom-in-right"
           >
             <Tilt>
             <img src='Assets/about.svg' alt="about" className="img-fluid" />
