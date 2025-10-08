@@ -35,7 +35,7 @@ function Experience() {
       title: 'Technical Lead',
       company: 'IdeyaLabs Tech LLP',
       period: 'Aug 2024 – Present',
-      duration: '5 months',
+      duration: 'Current',
       location: 'Hyderabad, India',
       type: 'Leadership',
       icon: FaRocket,
@@ -187,7 +187,7 @@ function Experience() {
             </h2>
           </div>
           <p className="text-gray-600 dark:text-gray-400 text-base max-w-3xl mx-auto">
-            7+ years of transforming ideas into reality • Leading teams • Driving innovation
+            8+ years of transforming ideas into reality • Leading teams • Driving innovation
           </p>
         </motion.div>
 

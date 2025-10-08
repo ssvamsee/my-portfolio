@@ -130,7 +130,7 @@ function Resume() {
           </h2>
           </div>
           <p className="text-gray-600 dark:text-gray-400 text-base max-w-3xl mx-auto">
-            7+ years of experience • Technical Leadership • AI Innovation • Full-Stack Development
+            8+ years of experience • Technical Leadership • AI Innovation • Full-Stack Development
           </p>
         </motion.div>
 

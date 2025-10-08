@@ -60,57 +60,56 @@ function Skills() {
   const allSkills = [
     // AI & GenAI Tools
     { name: 'LLMs', category: 'AI & GenAI', icon: FaBrain, description: 'Large Language Models', usage: 'ChatGPT, Claude Integration', experience: '2+ years' },
-    { name: 'LangChain', category: 'AI & GenAI', icon: FaBolt, description: 'AI Framework for LLMs', usage: 'Building AI Applications', experience: '1+ years' },
-    { name: 'LangGraph', category: 'AI & GenAI', icon: FaChartLine, description: 'Stateful AI Workflows', usage: 'Complex Agent Systems', experience: '1+ years' },
-    { name: 'RAG', category: 'AI & GenAI', icon: FaDatabase, description: 'Retrieval Augmented Generation', usage: 'Knowledge Base Integration', experience: '1+ years' },
-    { name: 'OpenAI', category: 'AI & GenAI', icon: FaMicrochip, description: 'GPT-4, DALL-E, Whisper', usage: 'API Integration & Fine-tuning', experience: '2+ years' },
-    { name: 'MCP', category: 'AI & GenAI', icon: FaServer, description: 'Model Context Protocol', usage: 'AI Agent Communication', experience: '1 year' },
+    { name: 'LangChain', category: 'AI & GenAI', icon: FaBolt, description: 'AI Framework for LLMs', usage: 'Building AI Applications', experience: '2+ years' },
+    { name: 'LangGraph', category: 'AI & GenAI', icon: FaChartLine, description: 'Stateful AI Workflows', usage: 'Complex Agent Systems', experience: '2+ years' },
+    { name: 'RAG', category: 'AI & GenAI', icon: FaDatabase, description: 'Retrieval Augmented Generation', usage: 'Knowledge Base Integration', experience: '2+ years' },
+    { name: 'MCP', category: 'AI & GenAI', icon: FaServer, description: 'Model Context Protocol', usage: 'AI Agent Communication', experience: '2+ year' },
     { name: 'Prompt Engineering', category: 'AI & GenAI', icon: FaLightbulb, description: 'Optimization Techniques', usage: 'Better AI Responses', experience: '2+ years' },
-    { name: 'GenAI Workflows', category: 'AI & GenAI', icon: FaSync, description: 'End-to-End AI Pipelines', usage: 'Production AI Systems', experience: '1+ years' },
+    { name: 'GenAI Workflows', category: 'AI & GenAI', icon: FaSync, description: 'End-to-End AI Pipelines', usage: 'Production AI Systems', experience: '2+ years' },
     
     // Languages
-    { name: 'JavaScript', category: 'Languages', icon: FaJs, description: 'ES6+ Modern JavaScript', usage: 'Frontend & Backend Development', experience: '5+ years' },
-    { name: 'Python', category: 'Languages', icon: FaPython, description: 'Backend & AI Development', usage: 'APIs, Scripts, ML', experience: '4+ years' },
-    { name: 'HTML', category: 'Languages', icon: FaHtml5, description: 'Semantic HTML5', usage: 'Web Structure & SEO', experience: '5+ years' },
-    { name: 'CSS', category: 'Languages', icon: FaCss3Alt, description: 'Modern CSS3 & Animations', usage: 'Responsive Design', experience: '5+ years' },
+    { name: 'JavaScript', category: 'Languages', icon: FaJs, description: 'ES6+ Modern JavaScript', usage: 'Frontend & Backend Development', experience: '8+ years' },
+    { name: 'Python', category: 'Languages', icon: FaPython, description: 'Backend & AI Development', usage: 'APIs, Scripts, ML', experience: '2+ years' },
+    { name: 'HTML', category: 'Languages', icon: FaHtml5, description: 'Semantic HTML5', usage: 'Web Structure & SEO', experience: '8+ years' },
+    { name: 'CSS', category: 'Languages', icon: FaCss3Alt, description: 'Modern CSS3 & Animations', usage: 'Responsive Design', experience: '8+ years' },
     
     // Frameworks
-    { name: 'React', category: 'Frameworks', icon: FaReact, description: 'Component-Based UI Library', usage: 'Single Page Applications', experience: '4+ years' },
-    { name: 'Node.js', category: 'Frameworks', icon: FaNodeJs, description: 'JavaScript Runtime', usage: 'Backend APIs & Services', experience: '4+ years' },
-    { name: 'Express', category: 'Frameworks', icon: FaRocket, description: 'Minimal Web Framework', usage: 'RESTful APIs', experience: '4+ years' },
+    { name: 'React', category: 'Frameworks', icon: FaReact, description: 'Component-Based UI Library', usage: 'Single Page Applications', experience: '5+ years' },
+    { name: 'Node.js', category: 'Frameworks', icon: FaNodeJs, description: 'JavaScript Runtime', usage: 'Backend APIs & Services', experience: '8+ years' },
+    { name: 'Express', category: 'Frameworks', icon: FaRocket, description: 'Minimal Web Framework', usage: 'RESTful APIs', experience: '8+ years' },
     { name: 'FastAPI', category: 'Frameworks', icon: FaBolt, description: 'Modern Python Framework', usage: 'High-Performance APIs', experience: '2+ years' },
     
     // Libraries
     { name: 'Redux', category: 'Libraries', icon: FaDatabase, description: 'Predictable State Container', usage: 'Global State Management', experience: '3+ years' },
     { name: 'RTK Query', category: 'Libraries', icon: FaCloud, description: 'Data Fetching & Caching', usage: 'API Integration', experience: '2+ years' },
-    { name: 'Socket.IO', category: 'Libraries', icon: FaGlobe, description: 'Real-time Bi-directional', usage: 'Live Chat & Notifications', experience: '3+ years' },
+    { name: 'Socket.IO', category: 'Libraries', icon: FaGlobe, description: 'Real-time Bi-directional', usage: 'Live Chat & Notifications', experience: '2+ years' },
     
     // Testing & Automation
     { name: 'Playwright', category: 'Testing', icon: FaFlask, description: 'End-to-End Testing', usage: 'Browser Automation', experience: '2+ years' },
     { name: 'Appium', category: 'Testing', icon: FaMobile, description: 'Mobile App Testing', usage: 'Cross-Platform Testing', experience: '2+ years' },
-    { name: 'Automation', category: 'Testing', icon: FaCogs, description: 'Test Frameworks', usage: 'CI/CD Integration', experience: '3+ years' },
-    { name: 'CI/CD', category: 'Testing', icon: FaSync, description: 'Continuous Integration', usage: 'Automated Deployments', experience: '3+ years' },
+    { name: 'Automation', category: 'Testing', icon: FaCogs, description: 'Test Frameworks', usage: 'CI/CD Integration', experience: '2+ years' },
+    { name: 'CI/CD', category: 'Testing', icon: FaSync, description: 'Continuous Integration', usage: 'Automated Deployments', experience: '2+ years' },
     
     // Cloud & Databases
     { name: 'AWS Lambda', category: 'Cloud', icon: FaAws, description: 'Serverless Computing', usage: 'Event-Driven Functions', experience: '3+ years' },
     { name: 'AWS S3', category: 'Cloud', icon: FaAws, description: 'Object Storage Service', usage: 'File Storage & CDN', experience: '3+ years' },
     { name: 'CloudFormation', category: 'Cloud', icon: FaCloud, description: 'Infrastructure as Code', usage: 'AWS Resource Management', experience: '2+ years' },
-    { name: 'MongoDB', category: 'Cloud', icon: FaDatabase, description: 'NoSQL Document Database', usage: 'Flexible Data Storage', experience: '4+ years' },
+    { name: 'MongoDB', category: 'Cloud', icon: FaDatabase, description: 'NoSQL Document Database', usage: 'Flexible Data Storage', experience: '7+ years' },
     { name: 'IndexedDB', category: 'Cloud', icon: FaDatabase, description: 'Browser Database', usage: 'Offline Data Storage', experience: '2+ years' },
     { name: 'Redis', category: 'Cloud', icon: FaDatabase, description: 'In-Memory Data Store', usage: 'Caching & Sessions', experience: '3+ years' },
     
     // Tools & Platforms
-    { name: 'Postman', category: 'Tools', icon: FaCogs, description: 'API Development Platform', usage: 'Testing & Documentation', experience: '5+ years' },
-    { name: 'VS Code', category: 'Tools', icon: FaCode, description: 'Code Editor', usage: 'Daily Development', experience: '5+ years' },
-    { name: 'GitHub', category: 'Tools', icon: FaGithub, description: 'Version Control Platform', usage: 'Code Collaboration', experience: '5+ years' },
-    { name: 'GitLab', category: 'Tools', icon: FaGitAlt, description: 'DevOps Platform', usage: 'CI/CD & Version Control', experience: '3+ years' },
-    { name: 'BitBucket', category: 'Tools', icon: FaGitAlt, description: 'Git Repository Manager', usage: 'Code Hosting', experience: '2+ years' },
+    { name: 'Postman', category: 'Tools', icon: FaCogs, description: 'API Development Platform', usage: 'Testing & Documentation', experience: '8+ years' },
+    { name: 'VS Code', category: 'Tools', icon: FaCode, description: 'Code Editor', usage: 'Daily Development', experience: '8+ years' },
+    { name: 'GitHub', category: 'Tools', icon: FaGithub, description: 'Version Control Platform', usage: 'Code Collaboration', experience: '8+ years' },
+    { name: 'GitLab', category: 'Tools', icon: FaGitAlt, description: 'DevOps Platform', usage: 'CI/CD & Version Control', experience: '5+ years' },
+    { name: 'BitBucket', category: 'Tools', icon: FaGitAlt, description: 'Git Repository Manager', usage: 'Code Hosting', experience: '3+ years' },
     { name: 'Jira', category: 'Tools', icon: FaFileCode, description: 'Project Management Tool', usage: 'Agile Workflows', experience: '4+ years' },
     { name: 'Cursor', category: 'Tools', icon: FaMicrochip, description: 'AI-Powered IDE', usage: 'AI-Assisted Coding', experience: '1 year' },
-    { name: 'Nagios', category: 'Tools', icon: FaChartLine, description: 'IT Infrastructure Monitoring', usage: 'Server Monitoring', experience: '2+ years' },
-    { name: 'PRTG', category: 'Tools', icon: FaChartLine, description: 'Network Monitoring', usage: 'Performance Tracking', experience: '2+ years' },
+    { name: 'Nagios', category: 'Tools', icon: FaChartLine, description: 'IT Infrastructure Monitoring', usage: 'Server Monitoring', experience: '1 year' },
+    { name: 'PRTG', category: 'Tools', icon: FaChartLine, description: 'Network Monitoring', usage: 'Performance Tracking', experience: '1 year' },
     { name: 'Docker', category: 'Tools', icon: FaDocker, description: 'Containerization Platform', usage: 'Application Deployment', experience: '3+ years' },
-    { name: 'WebRTC', category: 'Tools', icon: FaGlobe, description: 'Real-time Communication', usage: 'Video/Audio Streaming', experience: '2+ years' },
+    { name: 'WebRTC', category: 'Tools', icon: FaGlobe, description: 'Real-time Communication', usage: 'Video/Audio Streaming', experience: '1 year' },
   ];
 
   const filteredSkills = activeTab === 'All' 
